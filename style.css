@@ -74,12 +74,13 @@ a{
 	grid-template-areas: "e d"
 						 "l l";
 
-	padding: 0 10px;
+	padding: 0 25px;
 }
 
 .sectionTitle{
 	grid-area: e;
-	padding-top: 10px;
+	padding-top: 15px;
+	padding-left: 10px;
 	color: var(--corTopicoDivisor);
 	font-style: italic;
 }
@@ -93,10 +94,16 @@ a{
 h2{
 	color: var(--corTitulo-subTitulo);
 	font-family: var(--fontTitulo);
+	padding-top: 10px;
 }
 
 .subDetails{
 	color: var(--corTitulo-subTitulo);
 	font-family: var(--fontTitulo);
 	font-style: italic;
+	padding-bottom: 10px;
+}
+
+.keySkills{
+	columns: 3;
 }
